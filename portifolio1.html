@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+         margin:0;
+         padding:0;
+         box-sizing: border-box;
+         font-family: 'poppins',sans-serif;
+        }
+        body{
+           background: #0b0b0b;
+           color: #9c8888; 
+           
+        }
+        .header{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            padding: 20px 10%;
+            background: transparent;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        .logo{
+            font-size: 25px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .navbar a{
+            font-size: 18px;
+            color: #5bc808;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 105px;
+            transition: .3s;
+        }
+        .navbar a:hover {
+            color: #057067;
+        }
+        .home{
+            height: 100vh;
+            align-items: center;
+            padding: 0 10%;
+        }
+        .home-content{
+           max-width: 600px;
+           float: right;
+           margin-top: 200px;
+        }
+        .hone-content h1{
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        .home-content h3{
+            margin: 10px 0 5px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #5bc808;
+        }
+        .home-content p{
+            font-size: 16pxpx;
+            margin: 20px 0 40px;
+        }
+        .home-content .btn-box{
+            display: flex;
+            justify-content: space-between;
+            width: 340px;
+            height: 40px;
+        }
+        .btn-box a{
+            position: relative;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 100%;
+            background: #00abf0;
+            border: 2px solid #00abf0;
+            box-shadow: 0 0 15px #00abf0;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #eff2f5;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .btn-box a:nth-child(2){
+            background: transparent;
+            color: #eef2f4;
+        }
+        
+        .home-sci {
+        margin-top: 450px;
+        bottom: 150px;
+        width: 170px;
+        float: right;
+        justify-content: space-between;
+        margin-right: -200px;
+       } 
+
+       .home-sci a {
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #00abf0;
+        border-radius: 50%;
+        font-size: 20px;
+        color: #e6eee6;
+        text-decoration: none;
+        margin-left: 10px;
+       }
+
+       .home img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 3px solid #00abf0;
+        box-shadow: 0 0 25px #00abf0;
+        /* margin-left: 190px; */
+        margin-top: 150px;
+        float: left;
+        }
+
+        .about img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        border: 3px solid #00abf0;
+        box-shadow: 0 0 25px #00abf0;
+        justify-content: center;
+        align-items: center;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <header class="header">
+            <a href="" class="logo">Ramyasri</a>
+            <nav class="navbar">
+                <a href="About1.html">About</a>
+                <a href="Skills1.html">Skills</a>
+                <a href="Projects1.html">Projects</a>
+                <a href="Contact1.html">Contact</a>
+            </nav>
+    </header>
+    <section class="home" >
+          <div class="home-content">
+              <h1>Hi, I'm Mallipudi Ramyasri</h1>
+              <h3>Python devoloper</h3>
+              <p>I am an aspiring python developer eager to solve problems,
+                and innovate while working in a strong team. Fresh Python
+                developerlooking for a role where i can collaborate, 
+                tackle challenges, and drive innovation.<p>
+              <div class="btn-box">
+                  <a href="">Explore more</a>
+                  <a href="">Let's Collaborate</a>
+              </div>
+          </div>
+          <br>
+        <div class="home-sci">
+             <a href="https://www.facebook.com"><i class='bx bxl-facebook-circle'></i></a>
+             <a href="https://x.com"><i class='bx bxl-twitter'></i></a>
+             <a href="https://www.linkedin.com/in/ramya-mallipudi-b9b200351"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+        <img src="images/my pic.png">
+    </section>
+</body>
+</html>
